@@ -1,8 +1,11 @@
-
+h1{
+    color: aliceblue;
+}
 .text{
-min-height: 60vh;
-display:flex ;
-justify-content: center;
-align-items: center;
-border: none;
+
+    min-height: 60vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }

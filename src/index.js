@@ -8,12 +8,13 @@ import Layout from './Layout'
 import Home from './Home'
 
 import Faculties from './Faculties'
-import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import { HashRouter , Routes , Route } from 'react-router-dom';
 import Detailfaculties from './Detailfaculties';
+import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}></Route>
@@ -23,6 +24,6 @@ root.render(
 
     </Routes>
 
-  </BrowserRouter>
+  </HashRouter>
 );
 

@@ -3,13 +3,11 @@ import './css/home.css';
 function Home(){
 
     return (
-        <>
-          <div class="text">
-            <h1>Welcome to the Faculty Managment System</h1>
-          </div>
-        
-        
-        
+        <>  
+        <div class="text">
+            <div></div>
+            <h1>TarvelGram </h1>
+            </div>
         </>
     );
 }
